@@ -1,0 +1,4 @@
+function enough(cap, on, wait) {
+  let total_passengers = on + wait;
+  return total_passengers - cap >0 ? total_passengers - cap: 0;
+}
